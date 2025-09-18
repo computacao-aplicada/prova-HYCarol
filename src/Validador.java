@@ -1,5 +1,5 @@
 public class Validador {
-    
+
     public static boolean validarCPF(String cpf) {
         if (cpf == null || cpf.trim().isEmpty()) return false;
         String limpo = cpf.trim().replaceAll("[.-]", "");
